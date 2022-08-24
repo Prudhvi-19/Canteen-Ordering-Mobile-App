@@ -1,0 +1,44 @@
+name: flash_chat
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0<3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  firebase_auth: ^0.15.5+2
+  cloud_firestore: ^0.13.4
+  modal_progress_hud: ^0.1.3
+  rflutter_alert: ^1.0.3
+  google_fonts: ^0.4.0
+  intl: ^0.16.1
+  shared_preferences: ^0.5.7+2
+  font_awesome_flutter: ^8.4.0
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.6.1
+
+flutter_icons:
+  image_path: 'images/National_Institute_of_Technology,_Calicut_Logo.png'
+  android: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - images/
+
